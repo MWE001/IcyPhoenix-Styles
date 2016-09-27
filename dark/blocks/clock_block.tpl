@@ -1,0 +1,16 @@
+<table>
+<tr>
+	<td>
+		<div class="center-block-text">
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" id="clock" width="140" height="140">
+			<param name="movie" value="{FULL_SITE_PATH}/templates/dark/images/dark/clock_blue_dark.swf">
+			<param name="bgcolor" value="#ffffff">
+			<param name="quality" value="high">
+			<param name="allowscriptaccess" value="samedomain">
+			<param name="wmode" value="transparent">
+			<embed type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" width="130" height="130" name="clock" src="{FULL_SITE_PATH}/templates/dark/images/dark/clock_blue_dark.swf" bgcolor="#ffffff" quality="high" swLiveConnect="true" allowScriptAccess="samedomain" wmode="transparent"></embed>
+		</object>
+		</div>
+	</td>
+</tr>
+</table>

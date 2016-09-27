@@ -8,7 +8,7 @@
 			<param name="quality" value="high">
 			<param name="allowscriptaccess" value="samedomain">
 			<param name="wmode" value="transparent">
-			<embed type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" width="130" height="130" name="clock" src="images/my_clock4.swf" bgcolor="#ffffff" quality="high" swLiveConnect="true" allowScriptAccess="samedomain"></embed>
+			<embed type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" width="130" height="130" name="clock" src="images/my_clock4.swf" bgcolor="#ffffff" quality="high" swLiveConnect="true" allowScriptAccess="samedomain" wmode="transparent"></embed>
 		</object>
 		</div>
 	</td>
