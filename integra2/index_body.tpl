@@ -145,8 +145,8 @@ if(GetCookie(tmp) == '2')
 }
 //-->
 </script>
-{IMG_THL}{IMG_THC}<img class="max-min-right" style="{SHOW_HIDE_PADDING}" src="{IMG_MINIMISE}" onclick="ShowHide('shoutbox','shoutbox_h','shoutbox');" alt="{L_HIDE}" /><a href="{U_SHOUTBOX_MAX}" class="forumlink">{L_SHOUTBOX}</a>{IMG_THR}<table class="forumlinenb">
-<tr><td><iframe src="{U_SHOUTBOX}" scrolling="no" width="100%" height="190" frameborder="0" marginheight="0" marginwidth="0"></iframe></td></tr>
+{IMG_THL}{IMG_THC}<img class="max-min-right" style="{SHOW_HIDE_PADDING}" src="{IMG_MINIMISE}" onclick="ShowHide('shoutbox','shoutbox_h','shoutbox');" alt="{L_HIDE}" /><a href="{U_SHOUTBOX_MAX}" class="forumlink">{L_SHOUTBOX}</a>{IMG_THR}<table class="forumline"style="padding: 5px; border-top-width: 1px;">
+<tr class="forumlinenb"><td><iframe src="{U_SHOUTBOX}" scrolling="no" width="100%" height="190" frameborder="0" marginheight="0" marginwidth="0"></iframe></td></tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 </div>
 <!-- ENDIF -->
@@ -154,8 +154,8 @@ if(GetCookie(tmp) == '2')
 
 <br />
 <div class="center-block" style="text-align: center; margin: 30px;">
-{IMG_TBL}<table class="forumlinenb" style="padding: 2px; border-top-width: 1px;">
-<tr>
+{IMG_TBL}<table class="forumline" style="padding: 5px; border-top-width: 1px;">
+<tr class="forumlinenb">
 	<td class="row-center-small twa-imp"><img src="{FORUM_NEW_CAT_IMG}" alt="{L_CAT_NEW_POSTS}" title="{L_CAT_NEW_POSTS}" /></td>
 	<td class="row-center-small tw11pct">{L_CAT_NEW_POSTS}</td>
 	<td class="row-center-small twa-imp"><img src="{FORUM_CAT_IMG}" alt="{L_CAT_NO_NEW_POSTS}" title="{L_CAT_NO_NEW_POSTS}" /></td>
